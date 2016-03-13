@@ -1,0 +1,12 @@
+div {
+	border: solid 2px black;
+	margin: 4px;
+}
+
+#body01 {
+	margin: 0;
+}
+
+#login {
+	float: right;
+}
