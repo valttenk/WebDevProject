@@ -20,7 +20,7 @@
 
 				<ul>
 				  	<li class="dropdown">
-				  		<a href="frontpage.html" class="dropbtn">Frontpage</a>				    
+				  		<a href="frontpage.php" class="dropbtn">Frontpage</a>				    
 				  		<div class="dropdown-content">
 				      		<a href="statistics.php">Statistics</a>
 				      		<a href="campaingInfo.html">Campaing info</a>
