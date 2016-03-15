@@ -12,20 +12,26 @@ div {
 }
 
 #navbar {
-	border: 8px solid #FF0008;
+	border: none;
+	float: right;
+	position: relative;
+	left: -50%;
 }
 
-ul {
-	
+#navbar ul {
     list-style-type: none;
+    position: relative;
+    left: 50%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #FF0008;
+    border: 8px solid #FF0008;
 }
 
-li {
-    float: center;
+#navbar li {
+    float:left;
+    position:relative;
 }
 
 li a, .dropbtn {
