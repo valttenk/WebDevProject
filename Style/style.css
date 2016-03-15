@@ -11,23 +11,28 @@ div {
 	float: right;
 }
 
+#navbar {
+	border: 8px solid #FF0008;
+}
+
 ul {
+	
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FF0008;
 }
 
 li {
-    float: left;
+    float: center;
 }
 
 li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px;
     text-decoration: none;
 }
 
@@ -39,10 +44,18 @@ li.dropdown {
     display: inline-block;
 }
 
+.dropbtn {
+	border-right: 4px solid white;
+}
+
+#noborder {
+	border-right: 0px;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ECECEC;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin: 0;
@@ -57,7 +70,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #CCCCCC}
 
 .dropdown:hover .dropdown-content {
     display: block;
