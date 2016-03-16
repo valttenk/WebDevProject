@@ -10,3 +10,115 @@ div {
 #login {
 	float: right;
 }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+#navbar {
+	border: none;
+	float: left;
+	position: relative;
+}
+
+#navbar ul {
+	clear: left;
+	float: right;
+    list-style: none;
+/*    position: relative;
+    left: 50%;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
+    background-color: #FF0008;
+    border: 8px solid #FF0008;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    position: relative;
+    /*Next row is used to center the navbar manually as %distanse from left side to first link*/
+    left: 50%;
+=======
+=======
+>>>>>>> parent of c0b2f4c... Nav styling
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+<<<<<<< HEAD
+>>>>>>> parent of c0b2f4c... Nav styling
+=======
+>>>>>>> parent of c0b2f4c... Nav styling
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    padding: 2px 16px;
+=======
+    text-align: center;
+    padding: 14px 16px;
+>>>>>>> parent of c0b2f4c... Nav styling
+=======
+    text-align: center;
+    padding: 14px 16px;
+>>>>>>> parent of c0b2f4c... Nav styling
+    text-decoration: none;
+}
+
+#navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.dropbtn {
+	border-right: 4px solid white;
+}
+
+#noborder {
+	border-right: 0px;
+=======
+li.dropdown {
+    display: inline-block;
+>>>>>>> parent of c0b2f4c... Nav styling
+=======
+li.dropdown {
+    display: inline-block;
+>>>>>>> parent of c0b2f4c... Nav styling
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 0;
+    border: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
