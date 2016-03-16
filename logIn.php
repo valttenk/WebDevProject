@@ -9,7 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<?php include 'Scripts/nav01.php' ?>
+		<header id='headerFEP'></header>
+<!--NAVBAR IN SCRIPT.JS FILE-->
 		<section>
 			<div id="login01">
 				<!-- action="checkPass.php" -->
@@ -26,6 +27,8 @@
 			</div>
 			
 		</section>
-		<?php  include 'Scripts/footer01.php' ?>
+		<footer id="footerFEP"></footer>
+<!--FOOTER IN SCRIP.JS FILE-->
+		<script src="Scripts/script.js"></script>
 	</div></body>
 </html>

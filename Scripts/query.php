@@ -12,7 +12,7 @@ function db_connect() {
     static $connection;
     // Try and connect to the database, if a connection has not been established yet
     if(!isset($connection)) {
-        $config = parse_ini_file('../../config.ini'); 
+        $config = parse_ini_file('../../../../config.ini'); 
         $connection = mysqli_connect($config['db'],$config['username'],$config['password'],$config['dbname']);
     }
 

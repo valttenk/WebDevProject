@@ -9,7 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<?php include 'Scripts/nav01.php' ?>
+		<header id='headerFEP'></header>
+<!--NAVBAR IN SCRIPT.JS FILE-->
 		<section>
 			<div id="content01">
 				<h2>Info about blood and donating</h2>
@@ -28,6 +29,8 @@
 				</div>
 			</div>
 		</section>
-		<?php  include 'Scripts/footer01.php' ?>
+		<footer id="footerFEP"></footer>
+<!--FOOTER IN SCRIP.JS FILE-->
+		<script src="Scripts/script.js"></script>
 	</div></body>
 </html>
