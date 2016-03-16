@@ -13,41 +13,43 @@ div {
 
 #navbar {
 	border: none;
-	float: right;
+	float: left;
 	position: relative;
-	left: -50%;
 }
 
 #navbar ul {
-    list-style-type: none;
-    position: relative;
-    left: 50%;
+	clear: left;
+	float: right;
+    list-style: none;
+/*    position: relative;
+    left: 50%;*/
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    position: relative;
+    right: 50%;
     background-color: #FF0008;
     border: 8px solid #FF0008;
-}
-
-#navbar li {
-    float:left;
-    position:relative;
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
     text-align: center;
+}
+
+#navbar ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    position: relative;
+    /*Next row is used to center the navbar manually as %distanse from left side to first link*/
+    left: 50%;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
     padding: 2px 16px;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+#navbar li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
-}
-
-li.dropdown {
-    display: inline-block;
 }
 
 .dropbtn {
