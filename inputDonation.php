@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])) {
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<?php include 'Scripts/nav01' ?>
+		<?php include 'Scripts/nav01.php' ?>
 		<section>
 			<div id="input01">
 				<h2> Input Donations </h2>

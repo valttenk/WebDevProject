@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<?php include 'Scripts/nav01' ?>
+		<?php include 'Scripts/nav01.php' ?>
 		<section>
 			<div id="content01">
 				<h2>Info about blood and donating</h2>
