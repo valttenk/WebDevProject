@@ -15,8 +15,7 @@ if (!isset($_SESSION['username'])) {
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<header id='headerFEP'></header>
-<!--NAVBAR IN SCRIPT.JS FILE-->
+		<?php include 'Scripts/nav01' ?>
 		<section>
 			<div id="input01">
 				<h2> Input Donations </h2>
@@ -50,8 +49,6 @@ if (!isset($_SESSION['username'])) {
 				<a href="Scripts/logout.php"><input type="button" value="Log Out"></a>
 			</div>
 		</section>
-		<footer id="footerFEP"></footer>
-<!--FOOTER IN SCRIP.JS FILE-->
-		<script src="Scripts/script2.js"></script>
+		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>
