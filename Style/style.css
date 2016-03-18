@@ -1,6 +1,6 @@
-div {
-    border: solid 2px black;
-    margin: 4px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 #body01 {
@@ -11,9 +11,6 @@ div {
     float: right;
 }
 
-#navbar {
-    /*border: 8px solid #FF0008;*/
-}
 
 #navbar ul {
     list-style-type: none;
@@ -67,4 +64,20 @@ div {
 
 #navbar .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.verticalSeparator {
+    margin: 14px 0px;
+    width: 4px;
+    background-color: white;
+    height: 18px;
+    float: left;
+}
+
+table {
+    border: 2px solid black;
+}
+
+#topTEN {
+    
 }

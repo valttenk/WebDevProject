@@ -10,6 +10,7 @@
 	      		<a href="campaingInfo.php">Campaing info</a>
 	    	</div>
 	    </li>
+	    <div class="verticalSeparator"></div>
 	    <li class="dropdown">
 	  		<a href="info.php" class="dropbtn">Info about blood and donating</a>				    
 	  		<div class="dropdown-content">
@@ -18,6 +19,7 @@
 	      		<a href="aboutBlood.php">Info about blood</a>
 	    	</div>
 	    </li>
+	    <div class="verticalSeparator"></div>
 	  	<li class="dropdown">
 	    	<a href="aboutUs.php" class="dropbtn" id="noborder">About us</a>
 	    	<div class="dropdown-content">
