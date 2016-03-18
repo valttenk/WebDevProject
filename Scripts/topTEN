@@ -1,0 +1,8 @@
+<?php 
+include 'query.php';
+
+$sql = "SELECT association, donation FROM donations ORDER BY donation DESC LIMIT 10"
+db_select();
+
+
+ ?>
