@@ -1,5 +1,5 @@
-** BUGEJA ***
-
+** BUGEJA **
+Onko niitä?
 
 
 ** TEHTÄVÄÄ **
@@ -7,7 +7,8 @@
 - Sisältö sivuille
 
 *Valtteri*
-- Veripisarat livepäivitykseen
+- Veripisarat livepäivitykseen   *DONE
+- Sivupalkkien lisäys kaikille sivuille
 
 *Helmi*
 - Grafiikat statseille
