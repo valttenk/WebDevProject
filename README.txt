@@ -1,15 +1,25 @@
-**Recent Updates
-- All HTML files saved as PHP
-- javascript imported navbars and footers changed into php
-- Horizontal navbar work in progress
-
-**Features yet to implement:
-- Diversity to the statistics page
-- Ability to log out the normal way 
-- Some content would be nice
+** BUGEJA ***
 
 
-**Known bugs__
-- Centering navbar sucks
-hohohoh
-moikkuu
+
+** TEHTÄVÄÄ **
+*Linda*
+- Sisältö sivuille
+
+*Valtteri*
+- Veripisarat livepäivitykseen
+
+*Helmi*
+- Grafiikat statseille
+
+
+** LINJAUKSIA **
+- Fontti Bitter by Google <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+- Väriskaala
+    * PUNAINEN C92219
+    * VAALEAMPI PUNAINEN E2261C
+    * HARMAA 878787
+    * VAALEAMPI HARMAA 99CCDD
+    * VAALEANSININEN 99CCDD
+- Otsikko navipalkkiin
+- Sivupalkit (pisarat ja TOP10) hyppää muun sisällön alapuolelle sivua pienennettäessä.
