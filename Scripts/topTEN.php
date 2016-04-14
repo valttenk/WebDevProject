@@ -1,5 +1,4 @@
 <?php 
-include 'query.php';
 
 $sql = "SELECT association FROM donations";
 $assoc = db_select($sql);
