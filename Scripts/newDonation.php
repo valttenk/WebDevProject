@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<?php
-		include 'Scripts/query.php';
 		
 		$association = $_POST['association'];
 		$gender = $_POST['gender'];
@@ -14,7 +13,7 @@
 				// valmistetaan lause
 				$sql = db_query("INSERT INTO donations VALUES ('$association', CURDATE(), '$gender', '$donation')");
 							
-				//header ("Location: inputDonation.html");
+				//header ("Location: inputDonation.php");
 			} else {
 				$donation = $donation+1;
 				$donation = $donationx[0]["donation"]+1;

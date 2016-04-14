@@ -52,7 +52,7 @@
                     </form>
                 </div>
                 <div id='table'>
-                    <?php include 'Scripts/query.php';
+                    <?php
                     $gender = $_POST["Gender"];
                     $association = $_POST["Association"];
                     // $field = $_POST["Field"];

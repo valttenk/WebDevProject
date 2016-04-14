@@ -26,7 +26,7 @@
 						<textarea name="text">Write your feedback here!</textarea>
 						<button type="submit">Send!</button>
 					</form>
-					<?php include 'Scripts/query.php';
+					<?php
 					$name = $_POST["name"];
 					$email = $_POST["email"];
 					$text = $_POST["text"];
