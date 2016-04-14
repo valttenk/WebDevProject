@@ -116,6 +116,12 @@ function printResult($gender, $association, $sortByDate){
 }
 
 
+function checkBlood($type){
+    $result = db_select("SELECT amount FROM bloodTypes WHERE type='$type'");
+    $amnt = $result[0]['amount'];
+    return $amnt;
+}
+
 
 /* EXAMPLE QUERYs
  - SELECT -

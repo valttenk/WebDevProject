@@ -9,8 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 	</head>
 	<body><div id='body01'>
-		<?php include 'Scripts/nav01.php' ?>
+		<?php
+        include 'Scripts/nav01.php';
+        include 'Scripts/query.php';
+        ?>
 		<section>
+            <div id="pisarat">
+                <?php include 'Scripts/pisarat.php'; ?>
+            </div>
 			<div id="content01">
 				<h2>Statistics</h2>
 				<div id="paragraph01">
