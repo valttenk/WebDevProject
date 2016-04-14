@@ -12,12 +12,46 @@
 		<?php include 'Scripts/nav01.php' ?>
 		<section>
 			<div id="content01">
-				<h2>Campaing info</h2>
+				<h2>INFOA VERENLUOVUTUSKAMPANJASTA</h2>
 				<div id="paragraph01">
 					<p>
-						Mauris sed libero. Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit vel mattis libero nisl et sem. Proin interdum maecenas massa turpis sagittis in, interdum non lobortis vitae massa. Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.
+						Metropolia ammattikorkeakoulun ja Suomen Punaisen Ristin Veripalvelun yhteistyössä järjestämä verenluovutuskampanja on käynnissä 1.6.-1.9.2016.  
+                    </p><p>
+                        Voittava ainejärjestö julkistetaan 2.9.2016. Voittajalle luvassa kunniakirja ja yllätyspalkinto.
+                    </p><p>
+                        Luovuttaessa verta, merkitse nimesi ja oma ainejärjestösi kampanjalistaan verenluovutuspaikalla.
 					</p><p>
-						Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue. Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat. Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+                        Verenluovutuspaikat kampanjan aikana:
+                    </p><p>
+                        Joka viikon torstai Metropolian terveydenhoitajat ottavat vastaan verenluovuttajia klo 10-15 välisenä aikana jonotusperiaatteella.
+                    </p><p>
+                        Veripalvelun veripalvelutoimistot löydät linkistä: https://www.veripalvelu.fi/verenluovutus/luovuta-verta/missa-luovutat
+                    </p><p>
+                        Espoo
+                            Osoite
+                                Kauppakeskus Iso Omena, Piispansilta 9 (Länsiväylätoimisto, 1-tason R-kioskilta hissillä 2. kerrokseen) 02230 Espoo
+                            Aukioloajat
+                                ma, ke klo 12–19 ja ti, to, pe klo 11–18
+                            Yhteystiedot
+                                p. 029 300 1040 Maksuton luovuttajainfo: 0800 0 5801 (arkisin klo 8–17)
+                    </p><p>
+                        Helsinki
+                            Kivihaka
+                                Osoite
+                                    Kivihaantie 7 00310 Helsinki
+                                Aukioloajat
+                                    ma–to klo 11–18 pe klo 9–16
+                                Yhteystiedot
+                                    p. 029 300 1020 Maksuton luovuttajainfo: 0800 0 5801 (arkisin klo 8–17)
+                            Sanomatalo
+                                Osoite
+                                    Töölönlahdenkatu 2 (2. krs) 00100 Helsinki
+                                Aukioloajat
+                                    ma, ke, pe klo 11–19 ti, to klo 8–19
+                                Yhteystiedot
+                                    p. 029 300 1030 Maksuton luovuttajainfo: 0800 0 5801 (arkisin klo 8–17)
+                    </p><p>
+                        (Veripalvelu 2016.)	
 					</p>
 				</div>
 			</div>

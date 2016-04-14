@@ -12,7 +12,7 @@
 		<?php include 'Scripts/nav01.php' ?>
 		<section>
 			<div id="content01">
-				<h2>Contact us!</h2>
+				<h2>Ota yhteyttä!</h2>
 				<div id="paragraph01">
 					<form id="contactForm" method="post"> Name:<br>
 						<input type="text" name="name"><br>Email:<br>

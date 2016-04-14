@@ -12,12 +12,14 @@
 		<?php include 'Scripts/nav01.php' ?>
 		<section>
 			<div id="content01">
-				<h2>About blood</h2>
+				<h2>Tietoa verestä</h2>
 				<div id="paragraph01">
 					<p>
-						Mauris sed libero. Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit vel mattis libero nisl et sem. Proin interdum maecenas massa turpis sagittis in, interdum non lobortis vitae massa. Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.
+						Veri koostuu punasoluista, valkosoluista, verihiutaleista ja verinesteestä eli plasmasta. Aikuisen ihmisen kehossa on verta noin viisi litraa. Punaisen värinsä veri saa punasolujen sisältämästä hemoglobiinista. Punasolujen tehtävänä on kuljettaa keuhkoista saatavaa happea kudoksiin ja tuoda keuhkoihin takaisin hiilidioksidia uloshengitettäväksi. Valkosolut puolestaan huolehtivat kehon vastustuskyvystä. Verihiutaleet auttavat elimistöä verenvuotojen tyrehdyttämisessä. Verinesteellä eli plasmalla on useita tehtäviä: kehon neste- ja lämpötasapainon säätely, ravintoaineiden kuljetus kudoksiin, kuona-aineiden kuljetus maksaan ja munuaisiin kehosta poistettavaksi. Verihiutaleet ja plasman sisältämät hyytymistekijät yhdessä muodostavat verisuonivaurioissa kiinteän verihiutaletulpan. (Veripalvelu 2016.)
+
 					</p><p>
-						Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue. Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat. Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+						Veriryhmiä on tunnetun ABO-järjestelmän mukaan kahdeksan. Veren ryhmittely perustuu punasolujen ominaisuuksiin ja seerumin vasta-aineisiin. Moni ei ennen ensimmäistä verenluovotustaan edes tiedä veriryhmäänsä. Verensiirrosa veriryhmä on otettava kuitenkin aina huomioon. Kuvasta 1 voi nähdä veriryhmien siirtosäännöt. (Veripalvelu 2016.)
+
 					</p>
 				</div>
 			</div>
