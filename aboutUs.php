@@ -18,7 +18,7 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>TEKIJÄT</h2>
+				<h2>Tekijät</h2>
 				<div id="paragraph01">
 					<ul>
                     <li>Helmi Hämeri - helmi.hameri@metropolia.fi </li>
@@ -29,14 +29,6 @@
                     <p></p>
                     Tieto- ja viestintätekniikka, hyvinvointi- ja terveysteknologia, 2. vuosikurssin opiskelijat
                     </ul>
-                    <p></p>
-					<ul>
-						<li>Kuinka kaikki alkoi?</li>
-						<li>Ota yhteyttä</li>
-					</ul>
-					<p>
-						Mitä tähän kirjoitetaan?
-					</p>
 				</div>
 			</div>
 		</section>

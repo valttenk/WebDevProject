@@ -18,7 +18,7 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>Miksi sinun kannattaisi luovuttaa verta??</h2>
+				<h2>Miksi sinun kannattaisi luovuttaa verta?</h2>
 				<div id="paragraph01">
 					<p>
 						Veripalvelun (2016) mukaan Suomessa tarvitaan joka arkipäivä noin 800 verenluovuttajaa. Verenluovuttajien veri auttaa vuositasolla noin 50 000 potilasta. Verenluovuttajien määrä vaihtelee eri veriryhmittäin seuraavasti:
