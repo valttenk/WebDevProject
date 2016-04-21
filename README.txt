@@ -24,3 +24,8 @@ Onko niitä?
     * VAALEANSININEN 99CCDD
 - Otsikko navipalkkiin
 - Sivupalkit (pisarat ja TOP10) hyppää muun sisällön alapuolelle sivua pienennettäessä.
+- Navbarin dropdownit klikkaukselle
+   * Poistettavat sivut:
+      info.php
+      aboutUs.php
+      
