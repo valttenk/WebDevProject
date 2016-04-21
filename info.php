@@ -20,14 +20,6 @@
 			<div id="content01">
 				<h2>Tietoa verenluovutuksesta ja verestä</h2>
 				<div id="paragraph01">
-					<ul>
-						<li>Voitko luovuttaa verta?</li>
-						<li>Miksi sinun kannattaisi luovuttaa verta?</li>
-						<li>Tietoa verestä</li>
-					</ul>
-					<p>
-						Mitä tähän kirjoitetaan?
-					</p>
 				</div>
 			</div>
 		</section>

@@ -24,9 +24,11 @@
 						Veri koostuu punasoluista, valkosoluista, verihiutaleista ja verinesteestä eli plasmasta. Aikuisen ihmisen kehossa on verta noin viisi litraa. Punaisen värinsä veri saa punasolujen sisältämästä hemoglobiinista. Punasolujen tehtävänä on kuljettaa keuhkoista saatavaa happea kudoksiin ja tuoda keuhkoihin takaisin hiilidioksidia uloshengitettäväksi. Valkosolut puolestaan huolehtivat kehon vastustuskyvystä. Verihiutaleet auttavat elimistöä verenvuotojen tyrehdyttämisessä. Verinesteellä eli plasmalla on useita tehtäviä: kehon neste- ja lämpötasapainon säätely, ravintoaineiden kuljetus kudoksiin, kuona-aineiden kuljetus maksaan ja munuaisiin kehosta poistettavaksi. Verihiutaleet ja plasman sisältämät hyytymistekijät yhdessä muodostavat verisuonivaurioissa kiinteän verihiutaletulpan. (Veripalvelu 2016.)
 
 					</p><p>
-						Veriryhmiä on tunnetun ABO-järjestelmän mukaan kahdeksan. Veren ryhmittely perustuu punasolujen ominaisuuksiin ja seerumin vasta-aineisiin. Moni ei ennen ensimmäistä verenluovotustaan edes tiedä veriryhmäänsä. Verensiirrosa veriryhmä on otettava kuitenkin aina huomioon. Kuvasta 1 voi nähdä veriryhmien siirtosäännöt. (Veripalvelu 2016.)
-
+						Veriryhmiä on tunnetun ABO-järjestelmän mukaan kahdeksan. Veren ryhmittely perustuu punasolujen ominaisuuksiin ja seerumin vasta-aineisiin. Moni ei ennen ensimmäistä verenluovutustaan edes tiedä veriryhmäänsä. Verensiirrossa veriryhmä on otettava kuitenkin aina huomioon. Kuvasta 1 voi nähdä veriryhmien siirtosäännöt. (Veripalvelu 2016.)
 					</p>
+                    <img src="..//WebDevProject/Pictures/Veriryhmien_periytyminen_2.jpg" alt="ABO -järjestelmä">
+                    <p></p>
+                        Kuva 1. Veriryhmien siirtosäännöt (Veripalvelu 2016).
 				</div>
 			</div>
 		</section>

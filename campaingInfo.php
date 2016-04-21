@@ -18,7 +18,7 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>INFOA VERENLUOVUTUSKAMPANJASTA</h2>
+				<h2>Tietoa verenluovutuskampanjasta</h2>
 				<div id="paragraph01">
 					<p>
 						Metropolia ammattikorkeakoulun ja Suomen Punaisen Ristin Veripalvelun yhteistyössä järjestämä verenluovutuskampanja on käynnissä 1.6.-1.9.2016.  

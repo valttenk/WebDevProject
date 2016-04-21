@@ -21,10 +21,9 @@
 				<h2>Voitko luovuttaa verta?</h2>
 				<div id="paragraph01">
 					<p>
-                        <ul>
+                    <ul>
                     <li>Nopein tapa selvittää asia on tehdä Sovinko luovuttajaksi -nettitesti: www.sovinkoluovuttajaksi.fi</li>
-                    <li>Jos olet epävarma tai haluat lisätietoa, voit soittaa maksuttomaan verenluovuttajainfon numeroon: 0800 0 5801, ark. 8-17 tai lähettää sähköpostia osoitteeseen verenluovutus(at)veripalvelu.fi
-                    </li>
+                    <li>Jos olet epävarma tai haluat lisätietoa, voit soittaa maksuttomaan verenluovuttajainfon numeroon: 0800 0 5801, ark. 8-17 tai lähettää sähköpostia osoitteeseen verenluovutus(at)veripalvelu.fi</li>
                     </p><p>
                     Verenluovutuksen perusedellytykset Veripalvelun (2016) mukaan:
                     <li>sinun tulee olla terve ja tuntea vointisi hyväksi</li>

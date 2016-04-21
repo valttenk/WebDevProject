@@ -18,7 +18,7 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>Ota yhteyttä!</h2>
+				<h2>Ota yhteyttä</h2>
 				<div id="paragraph01">
 					<form id="contactForm" method="post"> Name:<br>
 						<input type="text" name="name"><br>Email:<br>
