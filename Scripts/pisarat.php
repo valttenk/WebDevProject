@@ -1,9 +1,9 @@
 <div id="pisarat">
-<ul>
+<ul id="veritilanne">
     <li>
         <?php
         $types = array("A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-");
-        
+
         foreach ($types as $type){
 
             switch (checkBlood($type)) {
@@ -21,8 +21,8 @@
         }
         ?>
     </li>
-    
-    
+
+
 </ul>
 </div>
 
