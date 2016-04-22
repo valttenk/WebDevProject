@@ -1,6 +1,5 @@
 ** BUGEJA **
-Onko niitä?
-
+- Navin pudotusvalikot saa auki kaikki samanaikaisesti
 
 ** TEHTÄVÄÄ **
 *Linda*
