@@ -5,10 +5,10 @@ Onko niitä?
 ** TEHTÄVÄÄ **
 *Linda*
 - Sisältö sivuille
+- Sivupalkkien lisäys kaikille sivuille *DONE
 
 *Valtteri*
 - Veripisarat livepäivitykseen   *DONE
-- Sivupalkkien lisäys kaikille sivuille
 
 *Helmi*
 - Grafiikat statseille

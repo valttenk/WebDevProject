@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    /*font-family: 'Bitter', serif;*/
 }
 
 #body01 {
@@ -72,6 +73,14 @@ body {
     float: left;
 }
 
+#navbar #title {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
 
 #footer {
     border: none;
