@@ -7,6 +7,7 @@
         <meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 		<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 		<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
@@ -16,7 +17,7 @@
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
         ?>
-		<section>
+		<div id="content">
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
@@ -32,7 +33,7 @@
 					"marginRight": 40,
 					"marginLeft": 40,
 					"autoMarginOffset": 20,
-					"dataDateFormat": "YYYY-MM-DD",			
+					"dataDateFormat": "YYYY-MM-DD",
 					"valueAxes": [{
 						"id": "v1",
 						"axisAlpha": 0,
@@ -115,7 +116,7 @@
 				});
 
 				chart.addListener("rendered", zoomChart);
-				
+
 				zoomChart();
 
 				function zoomChart() {
@@ -166,7 +167,7 @@
                 </div>
 			</div>
             <?php include 'Scripts/topTEN.php' ?>
-		</section>
+		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>

@@ -2,6 +2,10 @@
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
 
 ** TEHTÄVÄÄ **
+*Free to take*
+- Palautelomakkeen muotoilu
+- Sisällön järjestely - sivupalkit sivuille
+
 *Linda*
 - Sisältö sivuille
 - Sivupalkkien lisäys kaikille sivuille *DONE

@@ -24,7 +24,7 @@
 	      		<a href="contactUs.php">Ota yhteyttä!</a>
 	    	</div>
 	  	</li>
-		<div id="title">Tähän sitte joskus se otsikko</div>
+		<div id="title"><a href="frontpage.php">Tähän sitte joskus se otsikko</a></div>
 	</ul>
 </nav></div>
 <script>
