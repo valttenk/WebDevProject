@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    /*font-family: 'Bitter', serif;*/
 }
 
 #body01 {
@@ -15,17 +16,12 @@ body {
 	margin-bottom: 10px;
 }
 
-#login {
-    float: right;
-}
-
-
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FF0008;
+    background-color: #C92219;
 }
 
 #navbar li {
@@ -33,7 +29,6 @@ body {
 }
 
 #navbar li a, .dropbtn {
-
     display: inline-block;
     color: white;
     text-align: center;
@@ -42,6 +37,7 @@ body {
 }
 
 #navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #db251b;
     text-decoration: underline;
 }
 
@@ -50,9 +46,6 @@ body {
 }
 
 #navbar .dropdown-content {
-    padding: 0;
-    margin: 0;
-    border: 0;
     display: none;
     position: absolute;
     background-color: #ECECEC;
@@ -68,18 +61,25 @@ body {
     text-align: left;
 }
 
-#navbar .dropdown-content a:hover {background-color: #CCCCCC}
+#navbar .dropdown-content a:hover {background-color: #f1f1f1}
 
-#navbar .dropdown:hover .dropdown-content {
-    display: block;
-}
+#navbar .show {display:block;}
 
-.verticalSeparator {
+#navbar .verticalSeparator {
     margin: 14px 0px;
     width: 4px;
     background-color: white;
     height: 18px;
     float: left;
+}
+
+#navbar #title {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
 }
 
 #footer {
@@ -91,12 +91,20 @@ body {
     background: #ECECEC;
 }
 
+#login {
+    float: right;
+}
+
+#veritilanne {
+    list-style-type: none;
+}
+
 table {
     border: 2px solid black;
 }
 
 #topTEN {
-    
+
 }
 
 .sivuotsikot {

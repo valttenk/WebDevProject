@@ -1,14 +1,13 @@
 ** BUGEJA **
-Onko niitä?
-
+- Navin pudotusvalikot saa auki kaikki samanaikaisesti
 
 ** TEHTÄVÄÄ **
 *Linda*
 - Sisältö sivuille
+- Sivupalkkien lisäys kaikille sivuille *DONE
 
 *Valtteri*
 - Veripisarat livepäivitykseen   *DONE
-- Sivupalkkien lisäys kaikille sivuille
 
 *Helmi*
 - Grafiikat statseille

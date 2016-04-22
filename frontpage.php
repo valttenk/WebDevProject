@@ -7,6 +7,7 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
@@ -21,7 +22,7 @@
 				<h2 class="sivuotsikot">VERENLUOVUTUSKAMPANJA - METROPOLIA AMK</h2>
 				<div id="paragraph01">
 					<p>
-						Tähän tuleeko mitä tekstiä? 
+						Tähän tuleeko mitä tekstiä?
 					</p>
 				</div>
 			</div>
