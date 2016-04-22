@@ -14,7 +14,7 @@
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
         ?>
-		<section>
+		<div id="content">
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<?php include 'Scripts/topTEN.php' ?>
-		</section>
+		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>

@@ -7,13 +7,14 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
         ?>
-		<section>
+		<div id="content">
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
@@ -25,13 +26,13 @@
 					Password:<br>
 					<input type="password" name="password"><br>
 					<button type="submit" name="Submit">Log in</button>
-					<?php 
+					<?php
 					include "Scripts/checkPass.php";
 					echo $message; ?>
 				</form>
 			</div>
-			
-		</section>
+
+		</div>
 		<?php include 'Scripts/footer02.php' ?>
 	</div></body>
 </html>

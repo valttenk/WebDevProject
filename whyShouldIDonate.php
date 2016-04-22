@@ -7,13 +7,14 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
         ?>
-		<section>
+		<div id="content">
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
@@ -24,7 +25,7 @@
 						Veripalvelun (2016) mukaan Suomessa tarvitaan joka arkipäivä noin 800 verenluovuttajaa. Verenluovuttajien veri auttaa vuositasolla noin 50 000 potilasta. Verenluovuttajien määrä vaihtelee eri veriryhmittäin seuraavasti:
 					</p><p>
                         <ul>
-                            <li>A+	280</li> 
+                            <li>A+	280</li>
                             <li>O+	230</li>
                             <li>B+	100</li>
                             <li>AB+	35</li>
@@ -38,7 +39,7 @@
 				</div>
 			</div>
             <?php include 'Scripts/topTEN.php' ?>
-		</section>
+		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>

@@ -13,13 +13,14 @@ if (!isset($_SESSION['username'])) {
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
         ?>
-		<section>
+		<div id="content">
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
@@ -39,7 +40,7 @@ if (!isset($_SESSION['username'])) {
 						<option value="SOFFA Ry">SOFFA Ry</option>
 						<!-- <option value="Tilde Ry">Tilde Ry?????</option> -->
 						<option value="Trombi Ry">Trombi Ry</option>
-						<option value="TxO Ry">TxO Ry</option>						
+						<option value="TxO Ry">TxO Ry</option>
 						<!-- <option value="UIO Ry">UIO Ry????</option> -->
 					</select>
 					<select name="gender">
@@ -54,7 +55,7 @@ if (!isset($_SESSION['username'])) {
 				?>
 				<a href="Scripts/logout.php"><input type="button" value="Log Out"></a>
 			</div>
-		</section>
+		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>
