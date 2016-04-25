@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $sql = "SELECT association FROM donations";
 $assoc = db_select($sql);
@@ -25,14 +25,17 @@ foreach ($topTEN as $key => $row) {
 array_multisort($donation, SORT_DESC, $topTEN);
 
 ?>
-
-<table>
-    <tbody>
-<?php foreach ($topTEN as $row): array_map('htmlentities', $row); ?>
-    <tr>
-        <td><?php echo implode('</td><td>', $row); ?></td>
-    </tr>
-<?php endforeach; ?>
-    </tbody>
-</table>
-
+<div id="tableContainer">
+	<div class="boxHeader">
+		TOP 10 järjestöt
+	</div>
+	<table>
+	    <tbody>
+	<?php foreach ($topTEN as $row): array_map('htmlentities', $row); ?>
+	    <tr>
+	        <td><?php echo implode('</td><td>', $row); ?></td>
+	    </tr>
+	<?php endforeach; ?>
+	    </tbody>
+	</table>
+</div>
