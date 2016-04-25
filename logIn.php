@@ -31,8 +31,10 @@
 					echo $message; ?>
 				</form>
 			</div>
-
+			<div id="topTEN">
+				<?php include 'Scripts/topTEN.php' ?>
+			</div>
 		</div>
-		<?php include 'Scripts/footer02.php' ?>
+		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
 </html>

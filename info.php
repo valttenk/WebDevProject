@@ -19,11 +19,15 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>Tietoa verenluovutuksesta ja verestä</h2>
-				<div id="paragraph01">
+				<div class="column">
+					<h2>Tietoa verenluovutuksesta ja verestä</h2>
+					<div id="paragraph01">
+					</div>
 				</div>
 			</div>
-            <?php include 'Scripts/topTEN.php' ?>
+			<div id="topTEN">
+				<?php include 'Scripts/topTEN.php' ?>
+			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>

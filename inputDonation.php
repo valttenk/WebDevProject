@@ -55,6 +55,9 @@ if (!isset($_SESSION['username'])) {
 				?>
 				<a href="Scripts/logout.php"><input type="button" value="Log Out"></a>
 			</div>
+			<div id="topTEN">
+				<?php include 'Scripts/topTEN.php' ?>
+			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>

@@ -1,30 +1,26 @@
-<div id="pisarat">
-<ul id="veritilanne">
-    <li>
-        <?php
-        $types = array("A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-");
+<div id="veritilanne">
+    <div class="boxHeader">
+        Veritilanne <?php echo date("d.m.Y"); ?>
+    </div>
+    <ul>
+            <?php
+            $types = array("A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-");
 
-        foreach ($types as $type){
+            foreach ($types as $type){
 
-            switch (checkBlood($type)) {
-                case 1:
-                    echo "<img src='Pictures/icon_blood_1.png'>";
-                    break;
-                case 2:
-                    echo "<img src='Pictures/icon_blood_2.png'>";
-                    break;
-                case 3:
-                    echo "<img src='Pictures/icon_blood_3.png'>";
-                    break;
+                switch (checkBlood($type)) {
+                    case 1:
+                        $img = "<img src='Pictures/icon_blood_1.png' alt=''>";
+                        break;
+                    case 2:
+                        $img = "<img src='Pictures/icon_blood_2.png'>";
+                        break;
+                    case 3:
+                        $img = "<img src='Pictures/icon_blood_3.png'>";
+                        break;
+                }
+                echo "<li>$img<span class='type'>$type</span></li>";
             }
-            echo "<span class='type'>$type</span>";
-        }
-        ?>
-    </li>
-
-
-</ul>
+            ?>
+    </ul>
 </div>
-
-<?php
-?>
