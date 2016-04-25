@@ -19,20 +19,24 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>Tekijät</h2>
-				<div id="paragraph01">
-					<ul>
-                    <li>Helmi Hämeri - helmi.hameri@metropolia.fi </li>
-                    <li>Valtteri Korpi - valtteri.korpi@metropolia.fi</li>
-                    <li>Linda Nevalainen - linda.nevalainen@metropolia.fi</li>
-                    <p></p>
-                    2016 - Metropolia
-                    <p></p>
-                    Tieto- ja viestintätekniikka, hyvinvointi- ja terveysteknologia, 2. vuosikurssin opiskelijat
-                    </ul>
+				<div class="column">
+					<h2>Tekijät</h2>
+					<div id="paragraph01">
+						<ul>
+	                    <li>Helmi Hämeri - helmi.hameri@metropolia.fi </li>
+	                    <li>Valtteri Korpi - valtteri.korpi@metropolia.fi</li>
+	                    <li>Linda Nevalainen - linda.nevalainen@metropolia.fi</li>
+	                    <p></p>
+	                    2016 - Metropolia
+	                    <p></p>
+	                    Tieto- ja viestintätekniikka, hyvinvointi- ja terveysteknologia, 2. vuosikurssin opiskelijat
+	                    </ul>
+					</div>
 				</div>
 			</div>
-            <?php include 'Scripts/topTEN.php' ?>
+			<div id="topTEN">
+				<?php include 'Scripts/topTEN.php' ?>
+			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>

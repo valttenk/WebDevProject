@@ -19,26 +19,30 @@
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="content01">
-				<h2>Miksi sinun kannattaisi luovuttaa verta?</h2>
-				<div id="paragraph01">
-					<p>
-						Veripalvelun (2016) mukaan Suomessa tarvitaan joka arkipäivä noin 800 verenluovuttajaa. Verenluovuttajien veri auttaa vuositasolla noin 50 000 potilasta. Verenluovuttajien määrä vaihtelee eri veriryhmittäin seuraavasti:
-					</p><p>
-                        <ul>
-                            <li>A+	280</li>
-                            <li>O+	230</li>
-                            <li>B+	100</li>
-                            <li>AB+	35</li>
-                            <li>A-	60</li>
-                            <li>O-	65</li>
-                            <li>B-	20</li>
-                            <li>AB-	10</li>
-                        </ul>
-						(Veripalvelu 2016.)
-					</p>
+				<div class="column">
+					<h2>Miksi sinun kannattaisi luovuttaa verta?</h2>
+					<div id="paragraph01">
+						<p>
+							Veripalvelun (2016) mukaan Suomessa tarvitaan joka arkipäivä noin 800 verenluovuttajaa. Verenluovuttajien veri auttaa vuositasolla noin 50 000 potilasta. Verenluovuttajien määrä vaihtelee eri veriryhmittäin seuraavasti:
+						</p><p>
+	                        <ul>
+	                            <li>A+	280</li>
+	                            <li>O+	230</li>
+	                            <li>B+	100</li>
+	                            <li>AB+	35</li>
+	                            <li>A-	60</li>
+	                            <li>O-	65</li>
+	                            <li>B-	20</li>
+	                            <li>AB-	10</li>
+	                        </ul>
+							(Veripalvelu 2016.)
+						</p>
+					</div>
 				</div>
 			</div>
-            <?php include 'Scripts/topTEN.php' ?>
+			<div id="topTEN">
+				<?php include 'Scripts/topTEN.php' ?>
+			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
 	</div></body>
