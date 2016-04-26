@@ -71,7 +71,7 @@ html, body {
     margin: 14px 0px;
     width: 4px;
     background-color: white;
-    height: 18px;
+    height: 80%;
     float: left;
 }
 
@@ -89,7 +89,7 @@ html, body {
 /********** CONTENT ************/
 
 #content {
-
+    overflow: hidden;
 }
 
 /* KESKIMMÄINEN SARAKE */
@@ -168,7 +168,7 @@ html, body {
 
 footer {
     border: none;
-    position: fixed;;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 60px;

@@ -7,7 +7,7 @@
 	      		<a href="campaingInfo.php">Kampanja info</a>
 	    	</div>
 	    </li>
-	    <div class="verticalSeparator"></div>
+	    <li><div class="verticalSeparator"></div></li>
 	    <li class="dropdown">
 	  		<a href="javascript:void(0)" class="dropbtn" onclick="myFunction('drop2')">Tietoa verestä ja sen luovutuksesta</a>
 	  		<div class="dropdown-content" id="drop2">
@@ -16,7 +16,7 @@
 	      		<a href="aboutBlood.php">Tietoa verestä</a>
 	    	</div>
 	    </li>
-	    <div class="verticalSeparator"></div>
+	    <li><div class="verticalSeparator"></div></li>
 	  	<li class="dropdown">
 	    	<a href="javascript:void(0)" class="dropbtn" id="noborder"  onclick="myFunction('drop3')">Keitä me olemme?</a>
 	    	<div class="dropdown-content" id="drop3">
