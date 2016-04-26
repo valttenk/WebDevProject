@@ -31,4 +31,5 @@
    * Poistettavat sivut:
       info.php
       aboutUs.php
+- Breakpoint 1122px 
       
