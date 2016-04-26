@@ -1,20 +1,24 @@
 ** BUGEJA **
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
+- Footer saattaa piilottaa osan sivun sisällöstä
 
 ** TEHTÄVÄÄ **
 *Free to take*
-- Palautelomakkeen muotoilu
-- Sisällön järjestely - sivupalkit sivuille
+- Palautelomakkeen muotoilu + yhteystiedot sen viereen
+- Kirjautumis-sivun tyylit
+- Luovutuksen lisäys sivun tyylit
+- Navin / Otsikon muotoilu
+- Footerin muotoilu
+- Lisää vaihtoehtoisia grafiikoita?
 
 *Linda*
-- Sisältö sivuille
-- Sivupalkkien lisäys kaikille sivuille *DONE
+
 
 *Valtteri*
-- Veripisarat livepäivitykseen   *DONE
+
 
 *Helmi*
-- Grafiikat statseille
+
 
 
 ** LINJAUKSIA **
