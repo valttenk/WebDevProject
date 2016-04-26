@@ -16,7 +16,6 @@ html, body {
 
 
 
-
 /*********** NAVBAR ***********/
 
 #navbar ul {
@@ -90,23 +89,19 @@ html, body {
 /********** CONTENT ************/
 
 #content {
-    display: flex;
-    flex-wrap: wrap;
     overflow: hidden;
-    width:100%;
 }
 
 /* KESKIMMÄINEN SARAKE */
 #content01 {
-    order: 1;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    width: 100%;
+    margin-top: 30px;
+    width: 70%;
+    float: left;
     text-align: center;
 }
 
 .sivuotsikot {
-    width: 100%;
+    width: 90%;
     color: #99CCDD;
     text-align: center;
 }
@@ -118,10 +113,10 @@ html, body {
 
 /* VERITILANNE */
 #pisarat {
-    order: 2;
-    width: 50%;
+    width: 15%;
+    float: left;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 #pisarat #veritilanne {
@@ -144,9 +139,9 @@ html, body {
 
 /* TOP LISTA */
 #topTEN {
-    order: 3;
-    width: 50%;
-    padding: 10px;
+    float: left;
+    width: 15%;
+    padding: 15px;
 }
 
 #topTEN #tableContainer{
@@ -167,60 +162,6 @@ html, body {
 }
 
 
-/******************  MUUTOKSET ISOLLE NÄYTÖLLE  ********************/
-
-@media screen and (min-width: 1122px) {
-    #content {
-        flex-wrap: nowrap;
-    }
-
-    /* KESKIMMÄINEN SARAKE */
-    #content01 {
-        order: 2;
-        margin-top: 30px;
-        width: 70%;
-    }
-
-    .sivuotsikot {
-        width: 90%;
-    }
-
-    .column {
-    }
-
-    /* VERITILANNE */
-    #pisarat {
-        order: 1;
-        width: 15%;
-        padding: 15px;
-    }
-
-    #pisarat #veritilanne {
-    }
-
-    #pisarat li{
-    }
-
-    #pisarat span {
-    }
-
-    /* TOP LISTA */
-    #topTEN {
-        order: 3;
-        width: 15%;
-        padding: 15px;
-    }
-
-    #topTEN #tableContainer{
-    }
-
-    #topTEN table {
-    }
-
-    .boxHeader {
-    }
-
-}
 
 
 /************ FOOTER **************/
@@ -229,7 +170,6 @@ footer {
     border: none;
     position: absolute;
     bottom: 0;
-    margin-top: 30px;
     width: 100%;
     height: 60px;
     background: #ECECEC;

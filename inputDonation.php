@@ -5,12 +5,13 @@ if (!isset($_SESSION['username'])) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 	<head>
 		<meta charset="utf-8">
 		<meta name="description" content="Web platform for blood donation contest of university students.">
 		<meta name="keywords" content="blood donation, bloodtype, SPR, Metropolia">
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>

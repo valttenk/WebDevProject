@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 	<head>
 		<meta charset="utf-8">
-        <meta name="description" content="Web platform for blood donation contest of university students.">
-        <meta name="keywords" content="blood donation, bloodtype, SPR, Metropolia">
-        <meta name="author" content="Hämeri, Korpi, Nevalainen">
+		<meta name="description" content="Web platform for blood donation contest of university students.">
+		<meta name="keywords" content="blood donation, bloodtype, SPR, Metropolia">
+		<meta name="author" content="Hämeri, Korpi, Nevalainen">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 		<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 		<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
