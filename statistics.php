@@ -157,7 +157,7 @@
 	                        <button type="submit">Select</button>
 	                    </form>
 	                </div>
-	                <div id='table'>
+	                <div class="tablediv"'>
 	                    <?php
 	                    $gender = $_POST["Gender"];
 	                    $association = $_POST["Association"];

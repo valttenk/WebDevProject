@@ -116,6 +116,12 @@ html, body {
     margin: auto;
 }
 
+.tablediv {
+	max-width: 500px;
+	max-height: 300px;
+	overflow: scroll;
+}
+
 /* VERITILANNE */
 #pisarat {
     order: 2;
