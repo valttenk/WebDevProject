@@ -105,9 +105,11 @@ function printResult($gender, $association, $sortByDate){
     }
     $result = db_query($sql);
     if (mysqli_num_rows($result) > 0) {
+		echo '<table><tr><th>Yhdistys</th><th>Päivämäärä</th><th>Sukupuoli</th><th>Luovutusten määrä</th></tr>';
         while($row = mysqli_fetch_assoc($result)) {
-            echo $row["association"] . " - " . $row["date"] . " - " . $row["gender"] . " - " . $row["donation"] . "<br>";
+            echo "<tr><td>" . $row["association"] . "</td><td>" . date('d.m.Y', strtotime($row["date"])) . "</td><td>" . $row["gender"] . "</td><td>" . $row["donation"] . "</td></tr>";
         }
+		echo '</table>';
         echo "Sum of selected donations: $sum";
     } else {
         echo "No results for your query!";
