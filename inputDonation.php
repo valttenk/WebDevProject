@@ -26,10 +26,10 @@ if (!isset($_SESSION['username'])) {
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
 			<div id="input01">
-				<h2> Input Donations </h2>
+				<h2> Lisää luovutus </h2>
 				<form method="post">
 					<select name="association" required>
-						<option value="">- Association -</option>
+						<option value="">- Yhdistys -</option>
 						<option value="AGU Ry">AGU Ry</option>
 						<option value="DEMONI Ry">DEMONI Ry</option>
 						<option value="HIV Ry">HIV Ry</option>
@@ -45,16 +45,16 @@ if (!isset($_SESSION['username'])) {
 						<!-- <option value="UIO Ry">UIO Ry????</option> -->
 					</select>
 					<select name="gender">
-						<option value="">- Gender -</option>
-						<option value="male">male</option>
-						<option value="female">female</option>
+						<option value="">- Sukupuoli -</option>
+						<option value="male">Mies</option>
+						<option value="female">Nainen</option>
 					</select>
-					<button type="submit">Submit</button>
+					<button type="submit">Lisää</button>
 				</form>
 				<?php
 				include "Scripts/newDonation.php";
 				?>
-				<a href="Scripts/logout.php"><input type="button" value="Log Out"></a>
+				<a href="Scripts/logout.php"><input type="button" value="Kirjaudu ulos"></a>
 			</div>
 			<div id="topTEN">
 				<?php include 'Scripts/topTEN.php' ?>

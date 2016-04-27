@@ -22,11 +22,11 @@
 			<div id="login01">
 				<!-- action="checkPass.php" -->
 				<form  method="post">
-					Username:<br>
+					Käyttäjätunnus:<br>
 					<input type="text" name="username"><br>
-					Password:<br>
+					Salasana:<br>
 					<input type="password" name="password"><br>
-					<button type="submit" name="Submit">Log in</button>
+					<button type="submit" name="Submit">Kirjaudu</button>
 					<?php
 					include "Scripts/checkPass.php";
 					echo $message; ?>
