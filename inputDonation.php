@@ -46,8 +46,8 @@ if (!isset($_SESSION['username'])) {
 					</select>
 					<select name="gender">
 						<option value="">- Sukupuoli -</option>
-						<option value="male">Mies</option>
-						<option value="female">Nainen</option>
+						<option value="mies">Mies</option>
+						<option value="nainen">Nainen</option>
 					</select>
 					<button type="submit">Lisää</button>
 				</form>
