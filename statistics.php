@@ -131,8 +131,8 @@
 	                    <form method="post">
 	                        <select name="Gender">
 	                            <option value="" selected>- Sukupuoli -</option>
-	                            <option value="female">Nainen</option>
-	                            <option value="male">Mies</option>
+	                            <option value="nainen">Nainen</option>
+	                            <option value="mies">Mies</option>
 	                        </select>
 	                        <select name="Association">
 	                            <option value="" selected>- Yhdistys -</option>
