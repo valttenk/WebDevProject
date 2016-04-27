@@ -116,22 +116,22 @@ html, body {
     margin: auto;
 }
 
-table {
-    border: 2px solid black;
-	border-collapse: collapse;
-}
-
 .tablediv {
 	max-width: 500px;
 	max-height: 300px;
 	overflow: scroll;
 }
 
-th {
+.tablediv table {
+    border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.tablediv th {
 	text-transform: capitalize;
 }
 
-th, td {
+.tablediv th, td {
 	border: 2px solid black;
 }
 
