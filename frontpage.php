@@ -21,7 +21,7 @@
 				<h2 class="sivuotsikot">VERENLUOVUTUSKAMPANJA - METROPOLIA AMK</h2>
 				<div id="paragraph01">
 					<p>
-						Tähän tuleeko mitä tekstiä? 
+				    Metropolia ammattikorkeakoulu järjestää yhdessä Suomen Punaisen Ristin Veripalvelun kanssa verenluovutuskampanjan amk-opiskelijoille. Kampanja on käynnissä 1.6.-1.9.2016. Ainejärjestöt kilpailevat keskenään kampanjan aikana siitä, kenellä eniten verenluovuttajia. Kun käyt verenluovutuksessa, merkitse nimesi ja oma ainejärjestösi kampanjalistaan verenluovutuspaikalla, niin olet mukana lisäämässä oman ainejärjestösi voittomahdollisuutta!
 					</p>
 				</div>
 			</div>

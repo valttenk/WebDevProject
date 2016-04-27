@@ -21,7 +21,7 @@
 				<h2>Kuinka kaikki alkoi?</h2>
 				<div id="paragraph01">
 					<p>
-						Selvitimme kevään ensimmäisellä periodilla Veripalvelu.fi -sivuston asiakastyytyväisyyttä ja käytettävyyttä. Kävimme tekemässä asiakashaastatteluja Veripalvelun tiloissa Helsingin Sanomatalolla. Siellä yksi työntekijä kertoi meille, että heillä oli ollut vähän aikaa sitten verenluovutuskampanja yliopisto-opiskelijoille. Tästä saimme idean, että voisimme kehittää web-sivuston liittyen verenluovutuskampanjaan. Sivustomme on alkuun suunniteltu käytettäväksi Metropolia ammattikorkeakoulun ainejärjestöille. Sivuston tarkoituksena on koota kaikkien ainejärjestöjen verenluovutusmäärät ja kilpailla millä ainejärjestöllä on eniten verenluovuttajia.
+						Selvitimme kevään 2016 ensimmäisellä periodilla Veripalvelu.fi -sivuston asiakastyytyväisyyttä ja käytettävyyttä. Kävimme tekemässä asiakashaastatteluja Veripalvelun tiloissa Helsingin Sanomatalolla. Siellä yksi työntekijä kertoi meille, että heillä oli ollut vähän aikaa sitten verenluovutuskampanja yliopisto-opiskelijoille. Tästä saimme idean, että voisimme kehittää web-sivuston liittyen verenluovutuskampanjaan. Sivustomme on alkuun suunniteltu käytettäväksi Metropolia ammattikorkeakoulun ainejärjestöille. Sivuston tarkoituksena on koota kaikkien ainejärjestöjen verenluovutusmäärät ja kilpailla millä ainejärjestöllä on eniten verenluovuttajia.
 
 					</p>
 				</div>
