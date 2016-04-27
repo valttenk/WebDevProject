@@ -24,7 +24,7 @@
 					<h2 class="sivuotsikot">VERENLUOVUTUSKAMPANJA - METROPOLIA AMK</h2>
 					<div id="paragraph01">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Metropolia ammattikorkeakoulu järjestää yhdessä Suomen Punaisen Ristin Veripalvelun kanssa verenluovutuskampanjan amk-opiskelijoille. Kampanja on käynnissä 1.6.-1.9.2016. Ainejärjestöt kilpailevat keskenään kampanjan aikana siitä, kenellä eniten verenluovuttajia. Kun käyt verenluovutuksessa, merkitse nimesi ja oma ainejärjestösi kampanjalistaan verenluovutuspaikalla, niin olet mukana lisäämässä oman ainejärjestösi voittomahdollisuutta!
 						</p>
 					</div>
 				</div>
