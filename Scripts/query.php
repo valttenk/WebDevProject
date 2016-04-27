@@ -73,7 +73,7 @@ function addFeedback($name, $email, $text){
         // valmistetaan lause
         $sql = db_query("INSERT INTO feedback(message, name, email, date) VALUES ('$text', '$name', '$email', CURDATE())");
     } else {
-        echo "Please give us feedback!";
+        echo "Anna meille palautetta!";
     }
 }
 

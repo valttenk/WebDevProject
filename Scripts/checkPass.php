@@ -14,7 +14,7 @@
 		
 		if (isset($_POST['Submit'])) {
 			if (empty($_POST['username']) || empty($_POST['password'])) {
-				$message = "Both fields are required.";
+				$message = "Täytä molemmat kentät.";
 			} else {
 				// $result = mysql_query("SELECT * FROM users WHERE username = '$username' and password = '$password';");
 				$result = db_query("SELECT * FROM users WHERE username = '$username' and password = '$password'");
@@ -25,7 +25,7 @@
 					$_SESSION['username'] = $row["username"];
 					header("Location: inputDonation.php");
 				} else {
-					$message = "Incorrect username or password.";
+					$message = "Väärä käyttäjätunnus tai salasana.";
 				}
 			}
 		}

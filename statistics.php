@@ -24,7 +24,8 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Statistics</h2>
+					<h2>Tilastoja</h2>
+					<h3>Päivittäiset luovutukset</h3>
 					<?php $connection = db_connect();
 					?>
 					<div id='chartdiv'></div>
@@ -125,15 +126,16 @@
 						chart.zoomToIndexes(chart.dataProvider.length - 40, chart.dataProvider.length - 1);
 					}
 					</script>
+					<h3>Tarkempia tilastoja</h3>
 					<div id="paragraph01">
 	                    <form method="post">
 	                        <select name="Gender">
-	                            <option value="" selected>- Gender -</option>
-	                            <option value="female">Female</option>
-	                            <option value="male">Male</option>
+	                            <option value="" selected>- Sukupuoli -</option>
+	                            <option value="female">Nainen</option>
+	                            <option value="male">Mies</option>
 	                        </select>
 	                        <select name="Association">
-	                            <option value="" selected>- Association -</option>
+	                            <option value="" selected>- Yhdistys -</option>
 	                            <option value="SOFFA Ry">SOFFA Ry</option>
 	                            <option value="HTO Ry">HTO Ry</option>
 	                            <option value="TROMBI Ry">TROMBI Ry</option>
@@ -154,7 +156,7 @@
 	                            <option value="Kulttuuri">Kulttuuri</option>
 	                        </select> -->
 	                        <!-- <input type="checkbox" name="sortByDate" value="yes">Sort by date -->
-	                        <button type="submit">Select</button>
+	                        <button type="submit">Valitse</button>
 	                    </form>
 	                </div>
 	                <div class="tablediv"'>

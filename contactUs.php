@@ -23,11 +23,11 @@
 				<div class="column">
 					<h2>Ota yhteyttä</h2>
 					<div id="paragraph01">
-						<form id="contactForm" method="post"> Name:<br>
-							<input type="text" name="name"><br>Email:<br>
+						<form id="contactForm" method="post"> Nimi:<br>
+							<input type="text" name="name"><br>Sähköposti:<br>
 							<input type="text" name="email"><br>
-							<textarea name="text">Write your feedback here!</textarea>
-							<button type="submit">Send!</button>
+							<textarea name="text">Kirjoita palautteesi tähän!</textarea>
+							<button type="submit">Lähetä</button>
 						</form>
 						<?php
 						$name = $_POST["name"];
