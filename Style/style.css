@@ -116,10 +116,23 @@ html, body {
     margin: auto;
 }
 
+table {
+    border: 2px solid black;
+	border-collapse: collapse;
+}
+
 .tablediv {
 	max-width: 500px;
 	max-height: 300px;
 	overflow: scroll;
+}
+
+th {
+	text-transform: capitalize;
+}
+
+th, td {
+	border: 2px solid black;
 }
 
 /* VERITILANNE */
