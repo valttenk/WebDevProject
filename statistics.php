@@ -81,7 +81,7 @@
 						},
 						"chartCursor": {
 							"pan": true,
-							"valueLineEnabled": true,
+							"valueLineEnabled": false,
 							"valueLineBalloonEnabled": true,
 							"cursorAlpha":1,
 							"cursorColor":"#258cbb",
@@ -103,13 +103,15 @@
 							"enabled": true
 						},
 						<?php
+						$sumDate = 0;
 						$temp_result = $connection->query("SELECT SUM(donation),date FROM donations GROUP BY date ORDER BY date;");
 						if ($temp_result->num_rows > 0) {
 							echo '"dataProvider": [';
 							while ($tempdata = $temp_result->fetch_assoc()) {
+								$sumdonation = $sumdonation + $tempdata['SUM(donation)'];
 								echo '{
 								"date": "' . $tempdata['date'] . '",
-								"value": ' . $tempdata['SUM(donation)'] . '
+								"value": ' . $sumdonation . '
 							},';
 							}
 							echo ']';
