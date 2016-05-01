@@ -7,8 +7,11 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
@@ -19,18 +22,24 @@
             <div id="pisarat">
                 <?php include 'Scripts/pisarat.php'; ?>
             </div>
-			<div id="login01">
-				<!-- action="checkPass.php" -->
-				<form  method="post">
-					Käyttäjätunnus:<br>
-					<input type="text" name="username"><br>
-					Salasana:<br>
-					<input type="password" name="password"><br>
-					<button type="submit" name="Submit">Kirjaudu</button>
-					<?php
-					include "Scripts/checkPass.php";
-					echo $message; ?>
-				</form>
+            <div id="content01">
+				<div id="login01">
+					<form  method="post">
+						Käyttäjätunnus:<br>
+						<input type="text" name="username"><br>
+						Salasana:<br>
+						<input type="password" name="password"><br>
+						<button type="submit" name="Submit">Kirjaudu</button>
+						<?php
+						include "Scripts/checkPass.php";
+						echo $message; ?>
+					</form>
+				</div>
+				<div id="logininfo">
+				<p>
+            		Oletko saanut tunnukset kampanjan järjestäjältä? Kirjaudu niillä sisään, niin pääset syöttämään uusia luovutuksia. Jos olet unohtanut salasanasi tai tunnukset eivät muusta syystä toimi, ota yhteyttä sivuston ylläpitäjään.
+            	</p>
+            	</div>
 			</div>
 			<div id="topTEN">
 				<?php include 'Scripts/topTEN.php' ?>
