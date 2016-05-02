@@ -24,7 +24,7 @@
 	      		<a href="contactUs.php">Ota yhteyttä!</a>
 	    	</div>
 	  	</li>
-		<div id="title"><a href="frontpage.php">TÄHÄN SIT JOSKUS SE OTSIKKO</a></div>
+		<div id="title"><a href="frontpage.php">MetropoliaLuovuttaa</a></div>
 	</ul>
 </nav></div>
 <script>

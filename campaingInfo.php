@@ -24,7 +24,7 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Tietoa verenluovutuskampanjasta</h2>
+					<h2 class="sivuotsikot">Tietoa verenluovutuskampanjasta</h2>
 					<div id="paragraph01">
 						<p>
 							Metropolia ammattikorkeakoulun ja Suomen Punaisen Ristin Veripalvelun yhteistyössä järjestämä verenluovutuskampanja on käynnissä 1.6.-1.9.2016.

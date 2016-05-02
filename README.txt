@@ -1,22 +1,21 @@
 ** BUGEJA **
+- Kirjautuminen herjaa jotain session() virhettä?
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
 - Footer saattaa piilottaa osan sivun sisällöstä
 
 ** TEHTÄVÄÄ **
 *Free to take*
-- Palautelomakkeen muotoilu + yhteystiedot sen viereen
+- BUGIT
 - Kirjautumis-sivun tyylit
 - Luovutuksen lisäys sivun tyylit
-- Navin / Otsikon muotoilu
-- Footerin muotoilu ja pois sisällön päältä!!
-- Lisää vaihtoehtoisia grafiikoita?
-- Linkeille (poislukien navi ja footer) fiksu väri ja joku "visited" merkintäs
+- Lisää vaihtoehtoisia grafiikoita tilastoihin?
+- Tilastosivun tyylejä vois kattella
 
 *Linda*
 
 
 *Valtteri*
-
+TOPten herja luovutusta lisättäessä *DONE
 
 *Helmi*
 
@@ -37,5 +36,4 @@
    * Poistettavat sivut:
       info.php
       aboutUs.php
-- Breakpoint 1122px 
-      
+- Breakpoint 1122px
