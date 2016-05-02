@@ -1,13 +1,14 @@
 ** BUGEJA **
-- Kirjautuminen herjaa jotain session() virhettä?
+- Kirjautuminen herjaa jotain session() virhettä? KORJATTU
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
-- Footer saattaa piilottaa osan sivun sisällöstä
+- Footer saattaa piilottaa osan sivun sisällöstä  -> ei toimi pienellä näytöllä
 
 ** TEHTÄVÄÄ **
 *Free to take*
 - BUGIT
-- Kirjautumis-sivun tyylit
-- Luovutuksen lisäys sivun tyylit
+- Kirjautumis-sivun tyylit TEHTY
+- Luovutuksen lisäys sivun tyylit TEHTY
+- Kirjaudu sisään/ulos nappuloiden tyyli TEHTY
 - Lisää vaihtoehtoisia grafiikoita tilastoihin?
 - Tilastosivun tyylejä vois kattella
 
@@ -28,7 +29,7 @@ TOPten herja luovutusta lisättäessä *DONE
     * PUNAINEN C92219
     * VAALEAMPI PUNAINEN E2261C
     * HARMAA 878787
-    * VAALEAMPI HARMAA 99CCDD
+    * VAALEAMPI HARMAA ECECEC
     * VAALEANSININEN 99CCDD
 - Otsikko navipalkkiin
 - Sivupalkit (pisarat ja TOP10) hyppää muun sisällön alapuolelle sivua pienennettäessä.
