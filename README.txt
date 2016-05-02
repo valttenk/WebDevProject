@@ -1,5 +1,5 @@
 ** BUGEJA **
-- Kirjautuminen herjaa jotain session() virhettä? Tää ois hyvä saada kuntoon
+- Kirjautuminen herjaa jotain session() virhettä?
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
 - Footer saattaa piilottaa osan sivun sisällöstä
 
