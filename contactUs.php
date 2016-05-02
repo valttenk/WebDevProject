@@ -26,14 +26,14 @@
 					<div id="col_55">
 						<div class="colL" id="contactForm">
 							<form id="contactForm" method="post">
-								<fieldset>
-									<legend><h3>Anna meille palautetta:</h3></legend>
-									<br>Nimi:<br>
-									<input type="text" name="name"><br>Sähköposti:<br>
-									<input type="text" name="email"><br>Palaute:<br>
+									<h3 class="sivuotsikot">Anna meille palautetta:</h3>
+									<br><span>Nimi:</span><br>
+									<input type="text" name="name">
+									<br><span>Sähköposti:</span><br>
+									<input type="text" name="email">
+									<br><span>Palaute:</span><br>
 									<textarea name="text" rows="8" cols="40"></textarea><br>
 									<button type="submit">Lähetä</button>
-								</fieldset>
 							</form>
 							<?php
 							$name = $_POST["name"];
@@ -43,8 +43,12 @@
 							?>
 						</div>
 						<div class="colR" id="contactInfo">
-							<h3>Ylläpitäjät:</h3>
-							<div class="name">Sivuston on perustanut kolmen hengen opiskelijaryhmä: <b>Helmi Hämeri</b>, <b>Valtteri Korpi</b> ja <b>Linda Nevalainen</b>. Olemme kaikki toisen vuoden opiskelijoita Metropolia AMK:n Tieto- ja Viestintäteknologian koulutusohjelmasta. Voit ottaa meihin yhteyttä sähköpostitse (etunimi.sukunimi@metropolia.fi) </div>
+							<h3 class="sivuotsikot">Ylläpitäjät:</h3>
+							<div class="name">
+								<p>
+									Sivuston on perustanut kolmen hengen opiskelijaryhmä: <b>Helmi Hämeri</b>, <b>Valtteri Korpi</b> ja <b>Linda Nevalainen</b>. Olemme kaikki toisen vuoden opiskelijoita Metropolia AMK:n Tieto- ja Viestintäteknologian koulutusohjelmasta. Voit ottaa meihin yhteyttä sähköpostitse (etunimi.sukunimi@metropolia.fi)
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>

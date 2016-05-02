@@ -24,7 +24,7 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Tietoa verestä</h2>
+					<h2 class="sivuotsikot">Tietoa verestä</h2>
 					<div id="paragraph01">
 						<p>
 							Veri koostuu punasoluista, valkosoluista, verihiutaleista ja verinesteestä eli plasmasta. Aikuisen ihmisen kehossa on verta noin viisi litraa. Punaisen värinsä veri saa punasolujen sisältämästä hemoglobiinista. Punasolujen tehtävänä on kuljettaa keuhkoista saatavaa happea kudoksiin ja tuoda keuhkoihin takaisin hiilidioksidia uloshengitettäväksi. Valkosolut puolestaan huolehtivat kehon vastustuskyvystä. Verihiutaleet auttavat elimistöä verenvuotojen tyrehdyttämisessä. Verinesteellä eli plasmalla on useita tehtäviä: kehon neste- ja lämpötasapainon säätely, ravintoaineiden kuljetus kudoksiin, kuona-aineiden kuljetus maksaan ja munuaisiin kehosta poistettavaksi. Verihiutaleet ja plasman sisältämät hyytymistekijät yhdessä muodostavat verisuonivaurioissa kiinteän verihiutaletulpan. (Veripalvelu 2016.)

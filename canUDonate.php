@@ -64,7 +64,7 @@
 							</div>
 						</div>
 						<p>
-	                    	Aivan kaikkia kriteerejä emme tähän listaa. Nopein tapa selvittää soveltuvuus luovuttajaksi on tehdä Suomen Punaisen Ristin Veripalvelun <a href="http://www.sovinkoluovuttajaksi.fi/">"Sovinko luovuttajaksi" -nettitesti</a>.
+	                    	Aivan kaikkia kriteerejä emme tähän listaa. Nopein tapa selvittää soveltuvuus luovuttajaksi on tehdä Suomen Punaisen Ristin Veripalvelun <a href="donationTest.php">"Sovinko luovuttajaksi" -nettitesti</a>.
 	                    	Jos olet epävarma tai haluat lisätietoa, voit soittaa maksuttomaan verenluovuttajainfon numeroon: 0800 0 5801, ark. 8-17 tai lähettää sähköpostia osoitteeseen verenluovutus(at)veripalvelu.fi
 	                    </p>
 
