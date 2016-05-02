@@ -7,8 +7,11 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
@@ -21,27 +24,50 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Voitko luovuttaa verta?</h2>
+					<h2 class="sivuotsikot">Voitko luovuttaa verta?</h2>
 					<div id="paragraph01">
 						<p>
-	                    <ul>
-	                    <li>Nopein tapa selvittää asia on tehdä Sovinko luovuttajaksi -nettitesti: www.sovinkoluovuttajaksi.fi</li>
-	                    <li>Jos olet epävarma tai haluat lisätietoa, voit soittaa maksuttomaan verenluovuttajainfon numeroon: 0800 0 5801, ark. 8-17 tai lähettää sähköpostia osoitteeseen verenluovutus(at)veripalvelu.fi</li>
-	                    </p><p>
-	                    Verenluovutuksen perusedellytykset Veripalvelun (2016) mukaan:
-	                    <li>sinun tulee olla terve ja tuntea vointisi hyväksi</li>
-	                    <li>ikä: 18-70 -vuotias
-	                    (ensiluovutus on mahdollista 59-vuotiaaksi asti, ja 66 vuotta täyttäneenä voit jatkaa, jos luovutat vähintään joka toinen vuosi)</li>
-	                    <li>paino väh. 50 kg.</li>
-	                    <li>hemoglobiiniarvon tulee olla hyvä (naiset vähintään 125 g/l ja miehet 135 g/l)
-	                    (Hemoglobiini mitataan paikan päällä)</li>
-	                    <li>asuinpaikkakunta pysyvästi Pohjoismaissa tai muissa EU tai Efta-maissa</li>
-	                    <li>sinun pitää pystyä täyttämään terveydentilakysely suomeksi, ruotsiksi tai englanniksi</li>
-	                    <li>sinun tulee ottaa mukaasi virallinen kuvallinen henkilöllisyystodistus (ja tarvittaessa virallinen todistus suomalaisesta henkilötunnuksesta)</li>
-	                    <li>edellisestä kokoverenluovutuksestasi olla kulunut vähintään 91 vuorokautta (naiset) tai vähintään 61 vuorokautta (miehet)</li>
-	                    </ul>
-					    (Veripalvelu 2016.)
+							Verenluovutus ei sovi kaikille. Itseasiassa seula on varsin tiukka. Seuraavassa lueteltuna muutamia perusedellytyksiä verenluovutukselle:
 						</p>
+						<div id="col_55">
+							<div class="colL" id="luovutus">
+								<ul>
+									<li>
+										- Hyvä perusterveys
+									</li>
+									<li>
+										- 18-70 vuoden ikä
+									</li>
+									<li>
+										- Vähintään 50 kg painoa
+									</li>
+									<li>
+										- Hyvä hemoglobiiniarvo
+									</li>
+									<li>
+										- Pysyvä asuinpaikka Pohjoismaissa, EU tai Efta maissa.
+									</li>
+								</ul>
+							</div>
+							<div class="colR" id="luovutus">
+								<ul>
+									<li>
+										- Kielitaito terveydentilakyselyn täyttämiseen suomeksi, ruotsiksi tai englanniksi
+									</li>
+									<li>
+										- Kuvallinen henkilötodistus
+									</li>
+									<li>
+										- Aikaa edellisestä luovutuksesta naisilla 91 vrk miehillä 61 vrk
+									</li>
+								</ul>
+							</div>
+						</div>
+						<p>
+	                    	Aivan kaikkia kriteerejä emme tähän listaa. Nopein tapa selvittää soveltuvuus luovuttajaksi on tehdä Suomen Punaisen Ristin Veripalvelun <a href="http://www.sovinkoluovuttajaksi.fi/">"Sovinko luovuttajaksi" -nettitesti</a>.
+	                    	Jos olet epävarma tai haluat lisätietoa, voit soittaa maksuttomaan verenluovuttajainfon numeroon: 0800 0 5801, ark. 8-17 tai lähettää sähköpostia osoitteeseen verenluovutus(at)veripalvelu.fi
+	                    </p>
+
 					</div>
 				</div>
 			</div>

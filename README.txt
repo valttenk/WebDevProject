@@ -8,8 +8,9 @@
 - Kirjautumis-sivun tyylit
 - Luovutuksen lisäys sivun tyylit
 - Navin / Otsikon muotoilu
-- Footerin muotoilu
+- Footerin muotoilu ja pois sisällön päältä!!
 - Lisää vaihtoehtoisia grafiikoita?
+- Linkeille (poislukien navi ja footer) fiksu väri ja joku "visited" merkintäs
 
 *Linda*
 
@@ -23,6 +24,7 @@
 
 ** LINJAUKSIA **
 - Fontti Bitter by Google <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+- Vaihtoehtoinen fontti: Raleway (by Google)
 - Väriskaala
     * PUNAINEN C92219
     * VAALEAMPI PUNAINEN E2261C

@@ -2,23 +2,23 @@
 <html>
 	<?php
 		
-		$association = $_POST['association'];
+		$associationP = $_POST['association'];
 		$gender = $_POST['gender'];
-		$donationx = db_select("SELECT `donation` FROM `donations` WHERE `association` = '$association' AND `gender` = '$gender' AND `date` = CURDATE();");
+		$donX = db_select("SELECT `donation` FROM `donations` WHERE `association` = '$associationP' AND `gender` = '$gender' AND `date` = CURDATE();");
 		
-		if ($association != null){
-			if ($donationx == false) {
-				$donation = 1;
+		if ($associationP != null){
+			if ($donX == false) {
+				$don = 1;
 				
 				// valmistetaan lause
-				$sql = db_query("INSERT INTO donations VALUES ('$association', CURDATE(), '$gender', '$donation')");
+				$sql = db_query("INSERT INTO donations VALUES ('$associationP', CURDATE(), '$gender', '$don')");
 							
 				//header ("Location: inputDonation.php");
 			} else {
-				$donation = $donation+1;
-				$donation = $donationx[0]["donation"]+1;
+				$don = $don+1;
+				$don = $donX[0]["donation"]+1;
 				
-				$sql = db_query("UPDATE donations SET donation=$donation WHERE association = '$association' and gender = '$gender' and date = CURDATE();");
+				$sql = db_query("UPDATE donations SET donation=$don WHERE association = '$associationP' and gender = '$gender' and date = CURDATE();");
 			}
 		}
 	?>

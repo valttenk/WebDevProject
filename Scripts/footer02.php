@@ -1,6 +1,6 @@
 <footer>
 <div id='footer'>
-<div id='login'>Olet kirjautuneena sisään! Poistuessasi tältä sivulta kirjaudut automaattisesti ulos.</a></div>
+<div id='login'><a href="Scripts/logout.php"><input type="button" value="Kirjaudu ulos"></a></a></div>
 <p>&copy;  <?php echo date(Y); ?> Web Development Project</p>
 </div>
 </footer>

@@ -72,8 +72,7 @@ function addFeedback($name, $email, $text){
     if ($text != null and $text != "Write your feedback here!"){        
         // valmistetaan lause
         $sql = db_query("INSERT INTO feedback(message, name, email, date) VALUES ('$text', '$name', '$email', CURDATE())");
-    } else {
-        echo "Anna meille palautetta!";
+        echo "Kiitos palautteesta!";
     }
 }
 
@@ -123,47 +122,3 @@ function checkBlood($type){
     $amnt = $result[0]['amount'];
     return $amnt;
 }
-
-
-/* EXAMPLE QUERYs
- - SELECT -
-$rows = db_select("SELECT * FROM bloodTypes ORDER BY amount ASC;");
-if($rows === false) {
-    $error = db_error();
-}
-
- - INSERT -
-$result = db_query("INSERT INTO bloodTypes VALUES ('$bloodType', '$amount');");
-if($result === false) {
-    $error = db_error();
-//TÄHÄN UPDATE FUNCTIO
-    } else {
-}
-*/
-/*
-/*
-// TEST PRINT
-$rows = db_select("SELECT * from donations;")/*("SELECT field FROM fieldOfStudy WHERE association=(SELECT association FROM donations WHERE gender='$gender');")*/;
-/*if($rows === false) {
-    $error = db_error();
-}
-
-
-// PRINT ROWs AS HTML TABLE
-function printTable()
-if (count($rows) > 0): ?>
-    <table border="1">
-        <thead>
-            <tr>
-                <th><?php echo implode('</th><th>', array_keys(current($rows))); ?></th>
-            </tr>
-        </thead>
-    <tbody>
-<?php foreach ($rows as $row): array_map('htmlentities', $row); ?>
-    <tr>
-        <td><?php echo implode('</td><td>', $row); ?></td>
-    </tr>
-<?php endforeach; ?>
-    </tbody>
-</table>
-<?php endif; ?>*/
