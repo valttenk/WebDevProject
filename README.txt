@@ -1,5 +1,5 @@
 ** BUGEJA **
-- Kirjautuminen herjaa jotain session() virhettä
+- Kirjautuminen herjaa jotain session() virhettä? Tää ois hyvä saada kuntoon
 - Navin pudotusvalikot saa auki kaikki samanaikaisesti
 - Footer saattaa piilottaa osan sivun sisällöstä
 
@@ -15,7 +15,7 @@
 
 
 *Valtteri*
-
+TOPten herja luovutusta lisättäessä *DONE
 
 *Helmi*
 
