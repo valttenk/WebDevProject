@@ -7,13 +7,17 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 		<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 		<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
 	</head>
-	<body><div id='body01'>
+	<body>
+	<div id='body01'>
 		<?php
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
@@ -24,7 +28,7 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Tilastoja</h2>
+					<h2 class="sivuotsikot">Tilastoja</h2>
 					<h3>Päivittäiset luovutukset</h3>
 					<?php $connection = db_connect();
 					?>
@@ -82,7 +86,7 @@
 						},
 						"chartCursor": {
 							"pan": true,
-							"valueLineEnabled": true,
+							"valueLineEnabled": false,
 							"valueLineBalloonEnabled": true,
 							"cursorAlpha":1,
 							"cursorColor":"#258cbb",
@@ -104,13 +108,15 @@
 							"enabled": true
 						},
 						<?php
+						$sumDate = 0;
 						$temp_result = $connection->query("SELECT SUM(donation),date FROM donations GROUP BY date ORDER BY date;");
 						if ($temp_result->num_rows > 0) {
 							echo '"dataProvider": [';
 							while ($tempdata = $temp_result->fetch_assoc()) {
+								$sumdonation = $sumdonation + $tempdata['SUM(donation)'];
 								echo '{
 								"date": "' . $tempdata['date'] . '",
-								"value": ' . $tempdata['SUM(donation)'] . '
+								"value": ' . $sumdonation . '
 							},';
 							}
 							echo ']';
@@ -159,7 +165,7 @@
 	                        <button type="submit">Valitse</button>
 	                    </form>
 	                </div>
-	                <div class="tablediv"'>
+	                <div class="tablediv">
 	                    <?php
 	                    $gender = $_POST["Gender"];
 	                    $association = $_POST["Association"];
@@ -176,5 +182,6 @@
 			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
-	</div></body>
+	</div>
+	</body>
 </html>

@@ -3,21 +3,41 @@ html, body {
     font-family: 'Bitter', serif;
 }
 
-#body01 {
-    min-height:100%;
-    position:relative;
-}
-
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+#body01 {
+    min-height:100%;
+    position:relative;
+}
 
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
 
+b {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #99CCDD;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 /*********** NAVBAR ***********/
+#navbar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
 
 #navbar ul {
     list-style-type: none;
@@ -46,6 +66,7 @@ html, body {
 
 #navbar li.dropdown {
     display: inline-block;
+    font-size: 18px;
 }
 
 #navbar .dropdown-content {
@@ -78,11 +99,16 @@ html, body {
 
 #navbar #title {
     display: inline-block;
-    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 6px 16px 4px 16px;
     text-decoration: none;
     float: right;
+    font-size: 28px
+}
+
+#navbar #title a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -94,6 +120,8 @@ html, body {
     flex-wrap: wrap;
     overflow: hidden;
     width:100%;
+    height: auto;
+
 }
 
 /* KESKIMMÄINEN SARAKE */
@@ -106,9 +134,16 @@ html, body {
 }
 
 .sivuotsikot {
+    font-size: 30px;
     width: 100%;
     color: #99CCDD;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+h3.sivuotsikot {
+    margin-top: 30px;
+    font-size: 22px;
 }
 
 .column {
@@ -116,10 +151,33 @@ html, body {
     margin: auto;
 }
 
+#paragraph01 {
+    font-size: 20px;
+}
+
+#col_55 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width:100%;
+    text-align: left;
+}
+
+.colR {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.colL {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .tablediv {
-	max-width: 500px;
+	display: inline-block;
 	max-height: 300px;
 	overflow: scroll;
+	margin-bottom: 20px;
 }
 
 .tablediv table {
@@ -131,7 +189,7 @@ html, body {
 	text-transform: capitalize;
 }
 
-.tablediv th, td {
+.tablediv th, .tablediv td, .tablediv tr {
 	border: 2px solid black;
 }
 
@@ -146,7 +204,8 @@ html, body {
 #pisarat #veritilanne {
     background-color: #ECECEC;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
 }
 
 #pisarat li{
@@ -161,6 +220,14 @@ html, body {
     margin-top: 5px;
 }
 
+#infobox {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid black;
+    font-size: 11px;
+}
+
+
 /* TOP LISTA */
 #topTEN {
     order: 3;
@@ -171,7 +238,8 @@ html, body {
 #topTEN #tableContainer{
     background-color: #ECECEC;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
 }
 
 #topTEN table {
@@ -181,6 +249,8 @@ html, body {
 }
 
 .boxHeader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -189,13 +259,20 @@ html, body {
 /************ FOOTER **************/
 
 footer {
+    padding: 10px;
+    font-size: 13px;
     border: none;
     position: absolute;
     bottom: 0;
     margin-top: 30px;
     width: 100%;
     height: 60px;
-    background: #ECECEC;
+    background: #C92219;
+    color: white;
+}
+
+.copyR {
+
 }
 
 #login {
@@ -206,6 +283,28 @@ footer {
 
 /************ SIVUKOHTAISET MUOTOILUT *************/
 
+input[type=text], input[type=password], select {
+	height: 23px;
+	border-radius: 3px;
+	border: 1px solid #878787;
+	box-shadow: 0px 0px 3px #878787;
+	font-family: Bitter;
+}
+
+input[type=submit] {
+	padding: 0 5px;
+	margin-top: 7px;
+	border-radius: 3px;
+	border: 1px solid #878787;
+	font-family: Bitter;
+	background-color: #ECECEC;
+	box-shadow: 0px 0px 3px #878787;
+}
+
+.luovutus {
+	height: 23px;
+}
+
 #chartdiv {
 	width: 100%;
 	height: 500px;
@@ -214,8 +313,80 @@ footer {
 	margin-bottom: 10px;
 }
 
+#login01 {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
 
+}
 
+#logininfo {
+    text-align: center;
+    padding-top: 10px;
+    width: 70%;
+	margin: 0 auto;
+}
+
+#contactInfo h3 {
+    margin-bottom: 15px;
+}
+
+#contactInfo.name {
+
+}
+
+#luovutus ul{
+    list-style-type: none;
+    font-size: 14px
+}
+
+#luovutus {
+    line-height: 1.75;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#contactForm {
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#contactForm input {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#contactForm span {
+    margin-left: 15px;
+}
+
+#contactForm textarea {
+    font-size: 12px;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#luovutustesti {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #ccc;
+    box-shadow: 16px 0px 16px 0px rgba(0,0,0,0.2);
+}
 
 /******************  MUUTOKSET ISOLLE NÄYTÖLLE  ********************/
 
@@ -237,6 +408,21 @@ footer {
 
     .column {
     }
+
+    #col_55 {
+        flex-wrap: nowrap;
+    }
+
+    .colL {
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    .colR {
+        width: 50%;
+        padding-left: 20px;
+    }
+
 
     /* VERITILANNE */
     #pisarat {
@@ -270,4 +456,33 @@ footer {
     .boxHeader {
     }
 
+}
+
+/************  MUUTOKSET PIENILLE MOBIILINÄYTÖILLE  **********/
+@media screen and (max-width: 500px) {
+    #navbar .verticalSeparator {
+        display: none;
+    }
+
+    .sivuotsikot {
+        font-size: 20px;
+    }
+
+    h3.sivuotsikot {
+        font-size: 16px;
+    }
+
+    #paragraph01 {
+        font-size: 14px;
+    }
+
+    #luovutus ul{
+        list-style-type: none;
+        font-size: 12px
+    }
+
+    #contactForm input {
+        font-size: 12px;
+
+    }
 }

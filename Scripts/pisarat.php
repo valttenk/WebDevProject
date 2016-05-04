@@ -23,4 +23,7 @@
             }
             ?>
     </ul>
+    <div id="infobox">
+        Yllä näet ajankohtaisen tilanteen veriryhmittäin. Mitä tyhjempi tippa on, sitä kiireemmin vertasi tarvitaan. Luovuttaminen auttaa myös tipan ollessa täysi!
+    </div>
 </div>

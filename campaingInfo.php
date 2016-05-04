@@ -7,8 +7,11 @@
 		<meta name="author" content="Hämeri, Korpi, Nevalainen">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebDevProject</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="Style/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body><div id='body01'>
 		<?php
@@ -21,7 +24,7 @@
             </div>
 			<div id="content01">
 				<div class="column">
-					<h2>Tietoa verenluovutuskampanjasta</h2>
+					<h2 class="sivuotsikot">Tietoa verenluovutuskampanjasta</h2>
 					<div id="paragraph01">
 						<p>
 							Metropolia ammattikorkeakoulun ja Suomen Punaisen Ristin Veripalvelun yhteistyössä järjestämä verenluovutuskampanja on käynnissä 1.6.-1.9.2016.
