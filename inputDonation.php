@@ -51,7 +51,7 @@ if (!isset($_SESSION['username'])) {
 							<option value="mies">Mies</option>
 							<option value="nainen">Nainen</option>
 						</select>
-						<button type="submit">Lisää</button>
+						<input type="submit" value="Lisää" class="luovutus">
 					</form>
 					<?php
 					include "Scripts/newDonation.php";

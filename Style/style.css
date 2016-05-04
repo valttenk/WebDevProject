@@ -174,9 +174,10 @@ h3.sivuotsikot {
 }
 
 .tablediv {
-	max-width: 500px;
+	display: inline-block;
 	max-height: 300px;
 	overflow: scroll;
+	margin-bottom: 20px;
 }
 
 .tablediv table {
@@ -188,7 +189,7 @@ h3.sivuotsikot {
 	text-transform: capitalize;
 }
 
-.tablediv th td {
+.tablediv th, .tablediv td, .tablediv tr {
 	border: 2px solid black;
 }
 
@@ -282,6 +283,28 @@ footer {
 
 /************ SIVUKOHTAISET MUOTOILUT *************/
 
+input[type=text], input[type=password], select {
+	height: 23px;
+	border-radius: 3px;
+	border: 1px solid #878787;
+	box-shadow: 0px 0px 3px #878787;
+	font-family: Bitter;
+}
+
+input[type=submit] {
+	padding: 0 5px;
+	margin-top: 7px;
+	border-radius: 3px;
+	border: 1px solid #878787;
+	font-family: Bitter;
+	background-color: #ECECEC;
+	box-shadow: 0px 0px 3px #878787;
+}
+
+.luovutus {
+	height: 23px;
+}
+
 #chartdiv {
 	width: 100%;
 	height: 500px;
@@ -292,7 +315,7 @@ footer {
 
 #login01 {
     text-align: center;
-    margin-right: 40px;
+    margin: 0 auto;
     width: 30%;
 
 }
@@ -301,6 +324,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     width: 70%;
+	margin: 0 auto;
 }
 
 #contactInfo h3 {

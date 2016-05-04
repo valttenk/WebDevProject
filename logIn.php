@@ -1,3 +1,8 @@
+<?php
+if ((isset($_SESSION['username']) != '')) {
+	header('Location: inputDonation.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="fi">
 	<head>
@@ -29,10 +34,10 @@
 						<input type="text" name="username"><br>
 						Salasana:<br>
 						<input type="password" name="password"><br>
-						<button type="submit" name="Submit">Kirjaudu</button>
+						<input type="submit" name="Submit" value="Kirjaudu">
 						<?php
 						include "Scripts/checkPass.php";
-						echo $message; ?>
+						echo "<br>" . $message; ?>
 					</form>
 				</div>
 				<div id="logininfo">
