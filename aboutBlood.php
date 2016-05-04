@@ -33,8 +33,9 @@
 							Veriryhmiä on tunnetun ABO-järjestelmän mukaan kahdeksan. Veren ryhmittely perustuu punasolujen ominaisuuksiin ja seerumin vasta-aineisiin. Moni ei ennen ensimmäistä verenluovutustaan edes tiedä veriryhmäänsä. Verensiirrossa veriryhmä on otettava kuitenkin aina huomioon. Kuvasta 1 voi nähdä veriryhmien siirtosäännöt. (Veripalvelu 2016.)
 						</p>
 	                    <img src="..//WebDevProject/Pictures/Veriryhmien_periytyminen_2.jpg" alt="ABO -järjestelmä">
-	                    <p></p>
+	                    <p>
 	                        Kuva 1. Veriryhmien siirtosäännöt (Veripalvelu 2016).
+						</p>
 					</div>
 				</div>
 			</div>

@@ -16,7 +16,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:800,300' rel='stylesheet' type='text/css'>
 	</head>
-	<body><div id='body01'>
+	<body>
+	<div id='body01'>
 		<?php
         include 'Scripts/nav01.php';
         include 'Scripts/query.php';
@@ -164,7 +165,7 @@
 	                        <button type="submit">Valitse</button>
 	                    </form>
 	                </div>
-	                <div class="tablediv"'>
+	                <div class="tablediv">
 	                    <?php
 	                    $gender = $_POST["Gender"];
 	                    $association = $_POST["Association"];
@@ -181,5 +182,6 @@
 			</div>
 		</div>
 		<?php include 'Scripts/footer01.php' ?>
-	</div></body>
+	</div>
+	</body>
 </html>
